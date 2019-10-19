@@ -1,33 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
+using Unlock_Prison.Interfaces;
 
 namespace Unlock_Prison.Models
 {
-    class Prisoner
+    public class Prisoner
     {
-        private Dial dial;
+        public IDial iDial;
 
-        public Prisoner(Dial dial) 
+        public Prisoner(IDial iDial)
         {
-            this.dial = dial;
+            this.iDial = iDial;
         }
 
-        public void unlockDial()
+        public void UnlockDial()
         {
-            var locked = true;
-            while (locked)
+            while (iDial.IsLocked)
             {
-                for (int i = 0; i < dial.sections.Length; i++)
+                for (var i = 0; i < iDial.Sections.Length; i++)
                 {
-                    if (dial.sections[i] == true)
-                    {
-                        Console.WriteLine("The lock has been unlocked at position {0}", i + 1);
-                        locked = false;
-                        break;
-                    }
+                    if (iDial.Sections[i] != true) continue;
+                    Console.WriteLine(iDial.Message(i) + "\n");
+                    iDial.Unlock();
+                    break;
                 }
             }
         }
+
     }
 }

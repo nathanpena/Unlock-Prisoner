@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Applications\\Unlock Prison\\Unlock Prison\\Unlock Prison.csproj": {}
+    "D:\\Applications\\Unlock-Prisoner\\Unlock Prison\\Unlock Prison.csproj": {}
   },
   "projects": {
-    "D:\\Applications\\Unlock Prison\\Unlock Prison\\Unlock Prison.csproj": {
+    "D:\\Applications\\Unlock-Prisoner\\Unlock Prison\\Unlock Prison.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Applications\\Unlock Prison\\Unlock Prison\\Unlock Prison.csproj",
+        "projectUniqueName": "D:\\Applications\\Unlock-Prisoner\\Unlock Prison\\Unlock Prison.csproj",
         "projectName": "Unlock Prison",
-        "projectPath": "D:\\Applications\\Unlock Prison\\Unlock Prison\\Unlock Prison.csproj",
-        "packagesPath": "C:\\Users\\nnpen\\.nuget\\packages\\",
-        "outputPath": "D:\\Applications\\Unlock Prison\\Unlock Prison\\obj\\",
+        "projectPath": "D:\\Applications\\Unlock-Prisoner\\Unlock Prison\\Unlock Prison.csproj",
+        "packagesPath": "C:\\Users\\nathan\\.nuget\\packages\\",
+        "outputPath": "D:\\Applications\\Unlock-Prisoner\\Unlock Prison\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nnpen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

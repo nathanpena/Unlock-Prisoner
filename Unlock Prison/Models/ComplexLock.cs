@@ -5,17 +5,17 @@ using Unlock_Prison.Interfaces;
 
 namespace Unlock_Prison.Models
 {
-    class Dial : IDial
+    class ComplexLock : IDial
     {
-        public bool[] Sections { get; set; } = new bool[100];
-        public int UnlockedSection { get; set; } = new Random().Next(0, 99);
-        public bool IsLocked { get; set;} = true;
+        public bool[] Sections { get; set; } = new bool[200];
+        public int UnlockedSection { get; set; } = new Random().Next(0,199);
+        public bool IsLocked { get; set; } = true;
 
-        public Dial()
+        public ComplexLock()
         {
             CreateLockSections();
         }
-
+        
         public void CreateLockSections()
         {
             for (var i = 0; i < Sections.Length; i++)
@@ -28,14 +28,14 @@ namespace Unlock_Prison.Models
 
         public void Unlock()
         {
-           IsLocked = false;
+            IsLocked = false;
         }
 
         public string Message(int index)
         {
 
-            return $"The DialLock has been unlocked at position {index + 1}\n" +
-                   $"The DialLock has an unlocked section at position {UnlockedSection + 1}";
+            return $"The ComplexLock has been unlocked at position {index + 1}\n" +
+                   $"The ComplexLock has an unlocked section at position {UnlockedSection + 1}";
         }
     }
 }

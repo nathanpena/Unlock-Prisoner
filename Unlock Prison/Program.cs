@@ -1,4 +1,5 @@
 ﻿using System;
+using Unlock_Prison.Interfaces;
 using Unlock_Prison.Models;
 
 namespace Unlock_Prison
@@ -7,9 +8,15 @@ namespace Unlock_Prison
     {
         static void Main(string[] args)
         {
-            var dial = new Dial() ;
-            var prisoner = new Prisoner(dial);
-            prisoner.unlockDial();
+            var prisoner = new Prisoner(new ComplexLock());
+            prisoner.UnlockDial();
+
+            prisoner.iDial = new Dial();
+            prisoner.UnlockDial();
+
+            prisoner.iDial = new EasyLock();
+            prisoner.UnlockDial();
+            
         }
     }
 }

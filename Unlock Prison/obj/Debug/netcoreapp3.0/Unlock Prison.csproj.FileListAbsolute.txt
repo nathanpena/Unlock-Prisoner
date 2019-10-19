@@ -9,3 +9,14 @@ D:\Applications\Unlock Prison\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Priso
 D:\Applications\Unlock Prison\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Prison.AssemblyInfo.cs
 D:\Applications\Unlock Prison\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Prison.dll
 D:\Applications\Unlock Prison\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Prison.pdb
+D:\Applications\Unlock-Prisoner\Unlock Prison\bin\Debug\netcoreapp3.0\Unlock Prison.exe
+D:\Applications\Unlock-Prisoner\Unlock Prison\bin\Debug\netcoreapp3.0\Unlock Prison.deps.json
+D:\Applications\Unlock-Prisoner\Unlock Prison\bin\Debug\netcoreapp3.0\Unlock Prison.runtimeconfig.json
+D:\Applications\Unlock-Prisoner\Unlock Prison\bin\Debug\netcoreapp3.0\Unlock Prison.runtimeconfig.dev.json
+D:\Applications\Unlock-Prisoner\Unlock Prison\bin\Debug\netcoreapp3.0\Unlock Prison.dll
+D:\Applications\Unlock-Prisoner\Unlock Prison\bin\Debug\netcoreapp3.0\Unlock Prison.pdb
+D:\Applications\Unlock-Prisoner\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Prison.csprojAssemblyReference.cache
+D:\Applications\Unlock-Prisoner\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Prison.AssemblyInfoInputs.cache
+D:\Applications\Unlock-Prisoner\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Prison.AssemblyInfo.cs
+D:\Applications\Unlock-Prisoner\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Prison.dll
+D:\Applications\Unlock-Prisoner\Unlock Prison\obj\Debug\netcoreapp3.0\Unlock Prison.pdb
